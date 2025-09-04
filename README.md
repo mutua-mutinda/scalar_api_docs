@@ -36,10 +36,18 @@ If you wish to just develop locally and not deploy to Vercel, [follow the steps 
    pnpm create next-app --example with-supabase with-supabase-app
    ```
 
+   ```bash
+   git clone git@github.com:mutua-mutinda/scalar_api_docs.git
+   ```
+
 3. Use `cd` to change into the app's directory
 
    ```bash
    cd with-supabase-app
+   ```
+
+   ```bash
+   cd scalar_api_docs
    ```
 
 4. Rename `.env.example` to `.env.local` and update the following:
