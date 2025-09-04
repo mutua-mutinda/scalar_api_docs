@@ -150,14 +150,14 @@ export default function Home() {
             <h3 className="text-2xl font-semibold text-slate-900 dark:text-slate-100">
               Get Started
             </h3>
-            {docs.length > 0 && (
+            {/*{docs.length > 0 && (
               <Button variant="outline" asChild>
                 <Link href="/docs/all" className="flex items-center space-x-2">
                   <span>View All</span>
                   <ArrowRight className="h-4 w-4" />
                 </Link>
               </Button>
-            )}
+            )}*/}
           </div>
 
           {isLoading && (
