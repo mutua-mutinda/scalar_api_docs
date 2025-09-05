@@ -38,7 +38,7 @@ export default function Home() {
     const checkAuthAndFetchDocs = async () => {
       try {
         const supabase = createClient();
-
+        setIsLoading(true);
         // Check authentication
         const { data: authData, error: authError } =
           await supabase.auth.getClaims();

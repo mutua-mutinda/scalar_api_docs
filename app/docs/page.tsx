@@ -494,6 +494,12 @@ function ReferencesContent() {
               theme: "default",
               layout: "modern",
               showSidebar: true,
+              hideDarkModeToggle: true,
+              hideClientButton: true,
+              searchHotKey: "k",
+              metaData: {
+                title: apiSpec.title.toLocaleUpperCase(),
+              },
             }}
           />
         </div>
